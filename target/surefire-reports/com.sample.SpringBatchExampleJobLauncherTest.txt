@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.sample.SpringBatchExampleJobLauncherTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.04 s <<< FAILURE! - in com.sample.SpringBatchExampleJobLauncherTest
+com.sample.SpringBatchExampleJobLauncherTest  Time elapsed: 0.04 s  <<< ERROR!
+java.lang.IllegalStateException: Found multiple @SpringBootConfiguration annotated classes [Generic bean: class [com.sample.SpringBatchExampleJobLauncherTest]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\spring-batch-examples-master\reading-data\csv-file\target\test-classes\com\sample\SpringBatchExampleJobLauncherTest.class], Generic bean: class [com.sample.SpringBatchExampleApplication]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\spring-batch-examples-master\reading-data\csv-file\target\classes\com\sample\SpringBatchExampleApplication.class]]
+
